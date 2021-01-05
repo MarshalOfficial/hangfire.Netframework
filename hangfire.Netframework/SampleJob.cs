@@ -50,7 +50,7 @@ namespace hangfire.Netframework
             }
             catch (Exception e)
             {
-                var a = 1;
+                Console.WriteLine("Error:" + e.Message);
             }
         }
 
